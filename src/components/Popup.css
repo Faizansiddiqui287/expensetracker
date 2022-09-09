@@ -1,0 +1,73 @@
+*{
+    text-align: center;
+}
+.main{
+    background-color: rgba(39, 145, 216,0.710);
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    z-index: 1000;
+}
+.popup{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    right: 35%;
+}
+.popup-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 15px;
+    border-bottom: 2px solid black;
+}
+
+
+.btnAdd{
+    position: absolute;
+    left: 10px;
+    height: 60px;
+}
+.addExpense{
+    position: absolute;
+    right: 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+}
+
+
+.salary{
+    /* display: block; */
+    /* background-color: red; */
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid green;
+}
+
+
+.userList{
+    background-color: brown;
+    position: absolute;
+    top:38%;
+    width:100%;
+    /* display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid red; */
+}
+.userlistss{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid red;
+}
