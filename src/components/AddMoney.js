@@ -4,14 +4,14 @@ import './Popup.css';
 
 
 const AddMoney = () => {
-    const [popup, setPop] = useState(false);
-    let [count, setCount] = useState(0);
-    const [val, setVal] = useState(0);
-    const [isShown, setIsShown] = useState(false)
-    const [newPop, setNewPop] = useState(false)
-    const [debit, setDebit]= useState("")
-    const [reason, setReason] = useState("");
-    const [list,setList]=useState([])
+    const [popup, setPop] = useState(false); //TO show the first pop
+    let [count, setCount] = useState(0); // set the amount to Add money
+    const [val, setVal] = useState(0); //To get the amount from input 
+    const [isShown, setIsShown] = useState(false) // To show the + component
+    const [newPop, setNewPop] = useState(false) // second popup
+    const [debit, setDebit]= useState("") // To get the expense amount
+    const [reason, setReason] = useState(""); // Reason of expense
+    const [list,setList]=useState([]) //List of expense data in array
 
     
 
